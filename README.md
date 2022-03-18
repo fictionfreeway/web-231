@@ -1,2 +1,5 @@
-# web-231
-Enterprise Javascript class repo
+# WEB 231 Enterprise JavaScript 1
+
+## Contributors
+* Richard Krasso
+* William Watlington
