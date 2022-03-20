@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Oswald', Verdana, sans-serif;
+}
+
+#container {
+    margin: 50px 100px 0 100px;
+}
+
+h1, h2, h3, h4 {
+    background-color: #3c275a;
+    color: #fff;
+    border: 1px solid #d6a800;
+    padding: 10px;
+}
+
+a {
+    color: #456674;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #d6a800;
+    color: #4f3674
+}
+
+a:visited {
+    color: #3c275a;
+}
