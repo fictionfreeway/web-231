@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>WEB 231 - Enterprise JavaScript I</title>
+        <link href="../global.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <h1>Exercise 2.2 - Hello JavaScript</h1>
+        <button id="btnMyCourse">What course am I taking?</button>
+        <p id="txtMyWorld"></p>
+        <a class="return-home" href="../index.html">Return</a>
+        
+        <script>
+            document.getElementById("txtMyWorld").innerHTML = "You are in Watlington's world!";
+            
+            document.getElementById("btnMyCourse").addEventListener("click", showClass);
+
+            function showClass() {
+                alert("WEB 231 - Enterprise JavaScript I")
+            }
+        </script>
+    </body>
+</html>
