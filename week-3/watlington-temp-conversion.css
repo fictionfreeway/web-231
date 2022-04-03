@@ -1,0 +1,42 @@
+/*
+    Title: watlington-temp-conversion.css
+    Author: William Watlington
+    Date: 4/3/2022
+    Description: Styling for the watlington-temp-conversion.html file
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+
+ body {
+     font-size: 28px;
+     font-family: 'Oswald', Verdana, sans-serif;
+ }
+
+ h1, h3 {
+     text-align: center;
+     color: #3c275a;
+ }
+
+.card {
+    display: block;
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px 5%;
+    box-shadow: 2px 2px 10px rgb(119, 119, 119);
+}
+
+#result {
+    text-align: center;
+}
+
+ #convertButton {
+    display: block;
+    width: 30%;
+    height: 40px;
+    background-color: #3c275a;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    margin-top: 30px;
+ }
