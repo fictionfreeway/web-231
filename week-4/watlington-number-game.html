@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<!-- 
+    Title: watlington-number-game.html
+    Author: William Watlington
+    Date: 4/9/2022
+    Description: HTML for number guessing game
+ -->
+
+<html>
+    <head>
+        <title>WEB 231 - Enterprise Javascript I</title>
+        <link rel="stylesheet" href="./watlington-number-game.css">
+    </head>
+    <body>
+        <h1 class="app-header">Welcome to the numbers Game!</h1>
+        <div class="card">
+            <h3 class="card-title">Pick a number between 1 and 10</h3>
+            <form>
+                <label>Guess the number:</label>
+                <input type="text" id="txtMyNumber">
+                <button type="button" id="btnSubmit">Submit</button>
+            </form>
+        </div>
+        <div class="card">
+            <h3 class="card-title">Results</h3>
+            <p id="result"></p>
+        </div>
+        <script src="./watlington-number-game.js"></script>
+        <a class="return-home" href="../index.html">Return Home</a>
+    </body>
+</html>
