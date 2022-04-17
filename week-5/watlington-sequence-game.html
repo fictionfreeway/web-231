@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!-- 
+    Title: watlington-sequence-game.html
+    Author: William Watlington
+    Date: 4/16/2022
+    Description: HTML for sequence game
+ -->
+
+<html>
+    <head>
+        <title>WEB 231 - Enterprise Javascript I</title>
+        <link rel="stylesheet" href="./watlington-sequence-game.css">
+        <link rel="styleshee" href="../global.css">
+    </head>
+
+    <body>
+            <h1 class="app-header">Welcome to the sequence game!</h1>
+            <div class="card">
+                <h3 class="card-title">Sequence Selection Form</h3>
+                <form>
+                    <label>Choose a number sequence</label>
+                    <select id="sequence" class="drop-down-menu">
+                        <option value="select">--Select--</option>
+                        <option value="fibonacci">Fibonacci Sequence</option>
+                        <option value="even">Even Numbers</option>
+                        <option value="odd">Odd Numbers</option>
+                    </select>
+                    <button type="button" id="btnDisplaySequence" onclick="displaySequence()">Display Sequence</button>
+                </form>
+            </div>
+            <div class="card">
+                <h3>Sequence Results</h3>
+                <p  id="result"></p>
+            </div>
+            <a class="return-home" href="../index.html">Return Home</a>
+        <script src="./watlington-sequence-game.js"></script>
+    </body>
+</html>
