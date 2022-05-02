@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!-- 
+    Title: watlington-javazon.html
+    Author: William Watlington
+    Date: 4/30/2022
+    Description: HTML for Javazon web app
+ -->
+
+<html>
+    <head>
+        <title>WEB 231 - Enterprise Javascript I</title>
+        <link rel="stylesheet" href="./watlington-javazon.css">
+        <link rel="stylesheet" href="../global.css">
+    </head>
+
+    <body>
+        <h1 class="app-header">Welcome to the Javazon App!</h1>
+        <div class="card">
+            <h3 class="card-title">Javazon Selection Form</h3>
+            <form>
+                <label>Choose a Listing</label>
+                <select class="drop-down-menu" id="listing">
+                    <option value="select">--Select--</option>
+                    <option value="products">Products</option>
+                    <option value="services">Services</option>
+                    <option value="employees">Employees</option>
+                </select>
+                <button type="button" id="btnDisplayListing" onclick="displayListing()">Display Listing</button>
+            </form>
+        </div>
+        <a class="return-home" href="../index.html">Return Home</a>
+        <div class="card">
+            <table id="products">
+                <tr>
+                    <th>Product ID</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total Value</th>
+                </tr>
+            </table>
+            <table id="services">
+                <tr>
+                    <th>Service ID</th>
+                    <th>Description</th>
+                    <th>Hourly Rate</th>
+                    <th>Minimum Billable Hours</th>
+                </tr>
+            </table>
+            <table id="employees">
+                <tr>
+                    <th>Employee ID</th>
+                    <th>Last Name</th>
+                    <th>First Name</th>
+                    <th>Salary</th>
+                </tr>
+            </table>
+        </div>
+
+        <script src="./watlington-javazon.js"></script>
+    </body>
+</html>
