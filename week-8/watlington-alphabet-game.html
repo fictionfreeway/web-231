@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!-- 
+    Title: watlington-alphabet-game.html
+    Author: William Watlington
+    Date: 5/8/2022
+    Description: HTML for alphabet game
+ -->
+ <head>
+    <title>WEB 231 - Enterprise JavaScript I</title>
+    <link rel="stylesheet" href="./watlington-alphabet-game.css">
+    <link rel="stylesheet" href="../global.css">
+ </head>
+ <body>
+    <h1>Welcome to the Alphabet Game!</h1>
+    <div class="card">
+        <h3 class="card-title">Alphabet Number Form</h3>
+        <form>
+            <label>Alphabet Letter Position</label>
+            <input type="text" id="txtPosition">
+            <button type="button" id="btnFindLetter" onclick="findLetter()">Find Letter</button>
+        </form>
+    </div>
+    <div class="card">
+        <h3 class="card-title">Letters in the Alphabet</h3>
+        <p id="alphabet"></p>
+    </div>
+    <div class="card">
+        <h3 class="card-title">Results</h3>
+        <p id="result"></p>
+    </div>
+    <a class="return-home" href="../index.html">Return Home</a>
+    <script src="./watlington-alphabet-game.js"></script>
+ </body>
