@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!-- 
+    Title: watlington-card-game.html
+    Author: William Watlington
+    Date: 5/13/2022
+    Description: HTML for card game
+ -->
+
+<html>
+    <head>
+        <title>WEB 231 - Enterprise JavaScript I</title>
+        <link rel="stylesheet" href="./watlington-card-game.css">
+        <link rel="stylesheet" href="../global.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.6.96/css/materialdesignicons.min.css
+        ">
+    </head>
+    <body>
+        <h1>Welcome to the Card Game!</h1>
+        <div class="card">
+            <h3 class="card-title">Card Dealer</h3>
+            <button type="button" id="btnDealCards" onclick="dealCards()">Deal Cards</button>
+        </div>
+        <a class="return-home" href="../index.html">Return Home</a>
+        <div class="card">
+            <h3 class="card-title">Shuffled Cards</h3>
+            <!-- player-card-container will be used to hold all shuffled cards  -->
+            <div id="player-card-container"></div>
+        </div>
+    <script src="./watlington-card-game.js"></script>
+    </body>
+</html>

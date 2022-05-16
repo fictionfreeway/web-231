@@ -1,0 +1,55 @@
+/*
+    Title: watlington-card-game.css
+    Author: William Watlington
+    Date: 5/13/2022
+    Description: Styling for the watlington-card-game.html file
+ */
+
+ .player-card {
+     text-align: center;
+ }
+
+ body {
+    font-size: 28px;
+    font-family: 'Oswald', Verdana, sans-serif;
+}
+
+h1, h3 {
+    text-align: center;
+    color: #3c275a;
+}
+
+.card {
+   display: block;
+   width: 80%;
+   margin: 0 auto;
+   padding: 20px 5%;
+   box-shadow: 2px 2px 10px rgb(119, 119, 119);
+}
+
+#btnDealCards {
+   display: block;
+   width: 30%;
+   height: 40px;
+   background-color: #4f3674;
+   color: #fff;
+   border: none;
+   margin: 30px auto 0 auto;
+}
+
+#btnDealCards:hover {
+    cursor: pointer;
+}
+
+.return-home {
+    display: block;
+    text-decoration: none;
+    margin: 20px 0 20px 5%;
+}
+
+#player-card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px;
+    gap: 10px;
+}
